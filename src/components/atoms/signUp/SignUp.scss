@@ -1,0 +1,23 @@
+@import "../../../scss/variables";
+
+.signUp__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3.75rem;
+
+  .signUp__link {
+    color: $white;
+    font-family: $primaryFont;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+
+  .active {
+    color: $darkGray;
+    padding: .86rem 1.69rem;
+    border-radius: 1.5rem;
+    background: $creme;
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+  }
+}

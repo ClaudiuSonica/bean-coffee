@@ -1,0 +1,9 @@
+@import "../../../scss/variables";
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  gap: 16.55rem;
+  padding-block-start: 1.25rem;
+}

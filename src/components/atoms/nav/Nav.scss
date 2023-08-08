@@ -1,0 +1,22 @@
+@import "../../../scss/variables";
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 13.75rem; 
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3.75rem;
+
+    .nav__link {
+      color: $white;
+      font-family: $primaryFont;
+      font-size: .875rem;
+      font-weight: 500;
+    }
+  }
+}
