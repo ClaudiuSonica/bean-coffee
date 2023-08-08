@@ -1,0 +1,51 @@
+@import "../../../scss/variables";
+
+.section__advantages__details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-block-end: 5.13rem;
+
+  .section__advantages__title {
+    color: $coffee;
+    font-size: 3.375rem;
+    font-weight: 700;
+    margin-block-end: 1rem;
+  }
+
+  .section__advantages__subtitle {
+    color: $lightGray;
+    font-size: 1.25rem;
+    line-height: 2.125rem;
+    margin-block-end: 2rem;
+  }
+
+  .section__advantages__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.25rem;
+  }
+
+  .section__advantages__info {
+    color: $lightGray;
+    font-size: 1.25rem;
+  }
+
+  .section__advantages__info__title {
+    color: $coffee;
+    font-size: 1.875rem;
+    font-weight: 700;
+    margin-block-end: 1.5rem;
+  }
+
+  .section__advantages__btn {
+    color: $darkGray;
+    font-weight: 700;
+    padding: 0.86rem 1.69rem;
+    border-radius: 1.5rem;
+    background: $creme;
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+  }
+}

@@ -37,7 +37,7 @@ const data = {
       }
     ]
   },
-  achievements: {
+  advantages: {
     title: "Why are we different?",
     subtitle: "We don't just make your coffee, we make your day!",
     items: [
