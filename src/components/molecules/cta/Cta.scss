@@ -16,6 +16,18 @@
   align-items: center;
   padding-block-start: 3.38rem;
 
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $coffee;
+    opacity: 0.8;
+    z-index: -1;
+  }
+
   .cta__beans__img {
     position: absolute;
     bottom: 0;
@@ -61,16 +73,4 @@
     margin-inline-end: 13.56rem;
     margin-block-end: 3.31rem;
   }
-}
-
-.cta__section::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: $coffee;
-  opacity: 0.8;
-  z-index: -1;
 }
