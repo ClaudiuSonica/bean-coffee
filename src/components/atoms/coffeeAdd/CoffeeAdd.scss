@@ -1,0 +1,27 @@
+@import "../../../scss/variables";
+
+.section__add {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  align-items: center;
+  justify-content: center;
+  margin-block: 5.13rem;
+
+  .add__btn {
+    color: $darkGray;
+    font-weight: 700;
+    padding: .86rem 1.69rem;
+    border-radius: 1.5rem;
+    background: $creme;
+    box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+  }
+
+  .add__video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 40rem;
+  }
+}
