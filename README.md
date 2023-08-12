@@ -43,6 +43,5 @@ For any inquiries or collaboration opportunities, please contact me at csonica95
 
 Thank you for reviewing my Coffee Shop Landing Page mockup! ☕️👨‍💻
 
-Sincerely,\n
-Claudiu Sonica\n
-csonica95@gmail.com
+Sincerely,
+Claudiu Sonica
