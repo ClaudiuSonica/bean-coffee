@@ -39,10 +39,10 @@ The Coffee Shop Landing Page mockup showcases my proficiency as a developer by i
 
 Feel free to explore the codebase and the accompanying documentation to gain insights into my development skills and methodologies.
 
-For any inquiries or collaboration opportunities, please contact me at your-email@example.com.
+For any inquiries or collaboration opportunities, please contact me at csonica95@gmail.com.
 
 Thank you for reviewing my Coffee Shop Landing Page mockup! ☕️👨‍💻
 
-Sincerely,
-Claudiu Sonica
+Sincerely,\n
+Claudiu Sonica\n
 csonica95@gmail.com
