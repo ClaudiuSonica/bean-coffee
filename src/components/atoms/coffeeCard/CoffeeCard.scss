@@ -1,6 +1,9 @@
 @import "../../../scss/variables";
 
 .card__coffee {
+  border: 1px solid rgba(249, 192, 106, 0.42);
+  background: #fff9f1;
+  position: relative;
 
   .card__img {
     margin-block-end: 0.88rem;
@@ -13,18 +16,20 @@
       color: $coffee;
       font-size: 1.375rem;
       font-weight: 700;
+      margin-block-end: .38rem;
     }
 
     .card__subtitle {
       color: $darkGray;
       font-size: 1rem;
+      margin-block-end: .38rem;
     }
 
     .card__price {
       color: $coffee;
       font-size: 1.125rem;
       font-weight: 700;
-      margin-block-end: 1.12rem;
+      padding-block-end: 2.6rem;
     }
 
     .card__button {
@@ -34,6 +39,10 @@
       border-radius: 1.5rem;
       background: $creme;
       box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+      position: absolute;
+      bottom: -1.5rem;
+      right: 50%;
+      transform: translateX(50%);
     }
   }
 }

@@ -1,4 +1,4 @@
-# Bean Coffee Landing Page - README ☕️📝
+# Bean Coffee Landing Page ☕️📝
 
 This README provides an overview of the mockup landing page for a coffee shop that I built using React, SCSS, and various design principles. The project focuses on demonstrating my understanding of Atomic Design principles, modular SCSS, the usage of CSS positioning and Flexbox, as well as utilizing the `useState` and `useRef` hooks in React. 🚀
 
@@ -32,6 +32,10 @@ To run the Coffee Shop Landing Page mockup on your local machine, follow these s
 2. Navigate to the project directory: `cd bean-coffee`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
+
+## Tester
+
+Sabina: https://github.com/SabIoana
 
 ## Conclusion 🎉
 

@@ -25,7 +25,7 @@ section {
   }
 
   .section__info__text {
-    width: 50ch;
+    max-width: 60ch;
 
     .section__info__title {
       color: $coffee;
