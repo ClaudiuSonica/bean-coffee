@@ -1,6 +1,6 @@
 import "./AdvantagesSection.scss";
 import data from "../../../data";
-import AdvantagesCard from "../../atoms/advantagesCard/AdvantagesCard";
+import AdvantagesCard from "../../molecules/advantagesCard/AdvantagesCard";
 
 const AdvantagesSection = () => {
   const { advantages } = data;

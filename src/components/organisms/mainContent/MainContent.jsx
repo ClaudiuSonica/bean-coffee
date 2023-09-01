@@ -1,7 +1,7 @@
-import CoffeeSection from "../../molecules/coffeeSection/CoffeeSection";
-import AdvantagesSection from "../../molecules/advantagesSection/AdvantagesSection";
+import CoffeeSection from "../coffeeSection/CoffeeSection";
+import AdvantagesSection from "../advantagesSection/AdvantagesSection";
 import "./MainContent.scss";
-import CoffeeAdd from "../../atoms/coffeeAdd/CoffeeAdd";
+import CoffeeAdd from "../../molecules/coffeeAdd/CoffeeAdd";
 
 const MainContent = () => {
   return (

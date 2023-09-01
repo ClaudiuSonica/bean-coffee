@@ -11,10 +11,6 @@
     font-family: $primaryFont;
     font-size: 0.875rem;
     font-weight: 500;
-
-    &:is(:first-child) {
-      text-decoration: underline;
-    }
   }
 
   .active {

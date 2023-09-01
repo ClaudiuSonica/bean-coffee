@@ -1,6 +1,6 @@
 import "./CoffeeSection.scss";
 import data from "../../../data";
-import CoffeeCard from "../../atoms/coffeeCard/CoffeeCard";
+import CoffeeCard from "../../molecules/coffeeCard/CoffeeCard";
 
 const CoffeeSection = () => {
   const { styles } = data;

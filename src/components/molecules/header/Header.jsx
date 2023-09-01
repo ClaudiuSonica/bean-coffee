@@ -1,6 +1,6 @@
 import "./Header.scss";
 import Logo from "../../atoms/logo/Logo";
-import Nav from "../../atoms/nav/Nav";
+import Nav from "../../molecules/nav/Nav";
 
 const Header = () => {
   return (
