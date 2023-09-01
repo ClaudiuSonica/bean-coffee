@@ -1,0 +1,33 @@
+@import "../../../scss/variables";
+
+.nav__mobile {
+
+  .nav__list__mobile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-block-start: 5rem;
+    gap: 1.5rem;
+    position: fixed;
+    inset: 0 0 0 0%;
+    background: hsla(0, 0%, 100%, 0.3);
+    backdrop-filter: blur(2rem);
+    -webkit-backdrop-filter: blur(2rem);
+    z-index: 10;
+
+    & .nav__item {
+
+      &:last-child{
+        color: $white;
+        background-color: $coffee;
+        padding: .86rem 1.69rem;
+        border-radius: 1.5rem;
+      }
+
+      .nav__link {
+        color: $darkGray;
+      }
+    }
+  }
+}

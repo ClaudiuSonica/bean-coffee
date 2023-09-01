@@ -7,6 +7,10 @@
   gap: 13.75rem;
 
   &__list {
+    @media (max-width: $md) {
+      display: none;
+    }
+
     display: flex;
     align-items: center;
     justify-content: space-between;
