@@ -5,6 +5,10 @@
     display: none;
   }
 
+  @media (max-width: $xl) {
+    gap: 1rem;
+  }
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -15,14 +19,25 @@
     font-family: $primaryFont;
     font-size: 0.875rem;
     font-weight: 500;
+
+    &:hover {
+      color: $creme;
+      text-shadow: 0 0 1.5rem $creme;
+      transition: all 0.3s ease;
+    }
   }
 
   .active {
     color: $darkGray;
     font-weight: 700;
-    padding: .86rem 1.69rem;
+    padding: 0.86rem 1.69rem;
     border-radius: 1.5rem;
     background: $creme;
     box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+
+    &:hover {
+      color: $darkGray;
+      text-shadow: 0;
+    }
   }
 }

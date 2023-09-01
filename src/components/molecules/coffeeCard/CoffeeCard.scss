@@ -43,6 +43,11 @@
       bottom: -1.5rem;
       right: 50%;
       transform: translateX(50%);
+
+      &:hover {
+        box-shadow: 0 0 1.5rem $creme;
+        transition: all 0.3s ease;
+      }
     }
   }
 }

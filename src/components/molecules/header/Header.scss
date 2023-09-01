@@ -1,7 +1,7 @@
 @import "../../../scss/variables";
 
 header {
-  @media (max-width: $md) {
+  @media (max-width: $lg) {
     padding-inline: 1rem;
   }
 

@@ -29,12 +29,22 @@
   }
 
   &__title {
+    @media (max-width: $md) {
+      font-size: 2rem;
+    }
+
     color: $white;
     font-size: 3.375rem;
     font-weight: 700;
   }
 
   &__subtitle {
+    @media (max-width: $md) {
+      font-size: 1rem;
+      line-height: 1.2rem;
+      text-align: left;
+    }
+
     color: $white;
     text-align: center;
     font-size: 1.25rem;
@@ -44,12 +54,22 @@
   }
 
   .form {
+    @media (max-width: $md) {
+      width: 100%;
+      max-width: 20rem;
+    }
+
     display: flex;
     align-items: center;
     justify-content: center;
     width: 40.125rem;
 
     input {
+      @media (max-width: $md) {
+        font-size: .8rem;
+        height: 2rem;
+      }
+
       border: 0;
       outline: none;
       border-top-left-radius: 0.25rem;
@@ -64,6 +84,11 @@
     }
 
     .newsletter__form__btn {
+      @media (max-width: $md) {
+        font-size: .8rem;
+        height: 2rem;
+      }
+
       color: $coffee;
       font-size: 1.375rem;
       font-weight: 700;

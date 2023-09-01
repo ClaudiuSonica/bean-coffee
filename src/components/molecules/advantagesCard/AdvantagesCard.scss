@@ -9,6 +9,11 @@
   border: 1px solid rgba(249, 192, 106, 0.42);
   background: #fff9f1;
 
+  &:hover {
+    border: 0;
+    background: #ffeed8;
+  }
+
   .card__img {
     padding-block: 2.25rem;
   }
@@ -31,9 +36,4 @@
       margin-inline: auto;
     }
   }
-}
-
-.card__advantages:is(:first-child) {
-  border: 0;
-  background: #ffeed8;
 }

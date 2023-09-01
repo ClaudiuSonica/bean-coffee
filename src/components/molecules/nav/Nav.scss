@@ -1,6 +1,10 @@
 @import "../../../scss/variables";
 
 .nav {
+  @media (max-width: $xl) {
+    gap: 2.5rem;
+  }
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,6 +13,10 @@
   &__list {
     @media (max-width: $md) {
       display: none;
+    }
+
+    @media (max-width: $xl) {
+      gap: 1rem;
     }
 
     display: flex;

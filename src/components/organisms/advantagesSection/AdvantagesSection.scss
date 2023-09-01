@@ -8,6 +8,11 @@
   margin-block-end: 5.13rem;
 
   .section__advantages__title {
+    @media (max-width: $md) {
+      font-size: 2rem;
+      text-align: center;
+    }
+
     color: $coffee;
     font-size: 3.375rem;
     font-weight: 700;
@@ -15,6 +20,12 @@
   }
 
   .section__advantages__subtitle {
+    @media (max-width: $md) {
+      font-size: 1rem;
+      line-height: 1.2rem;
+      text-align: center;
+    }
+
     color: $lightGray;
     font-size: 1.25rem;
     line-height: 2.125rem;
@@ -22,6 +33,11 @@
   }
 
   .section__advantages__items {
+    @media (max-width: $lg) {
+      flex-direction: column;
+      gap: 0;
+    }
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -29,6 +45,11 @@
   }
 
   .section__advantages__info {
+    @media (max-width: $md) {
+      font-size: 1rem;
+      text-align: center;
+    }
+
     color: $lightGray;
     font-size: 1.25rem;
   }
@@ -47,5 +68,10 @@
     border-radius: 1.5rem;
     background: $creme;
     box-shadow: 0px 6px 12px 0px rgba(249, 192, 106, 0.22);
+
+    &:hover {
+      box-shadow: 0 0 1.5rem $creme;
+      transition: all 0.3s ease;
+    }
   }
 }

@@ -1,6 +1,10 @@
 @import "../../../scss/variables";
 
 .section__feedback {
+  @media (max-width: $lg) {
+    margin-block-end: 15.13rem;
+  }
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,6 +13,12 @@
   margin-block-end: 8.62rem;
 
   .section__feedback__right {
+    @media (max-width: $md) {
+      width: 100%;
+      max-width: 20rem;
+      top: -15rem;
+    }
+
     position: absolute;
     top: 0;
     right: 0;
@@ -22,6 +32,16 @@
   }
 
   .section__feedback__left {
+    @media (max-width: $md) {
+      width: 100%;
+      max-width: 20rem;
+      bottom: -17rem;
+    }
+
+    @media (max-width: $xl) {
+      bottom: -15rem;
+    }
+
     position: absolute;
     bottom: 0;
     left: 0;
@@ -35,6 +55,11 @@
   }
 
   .section__feedback__title {
+    @media (max-width: $lg) {
+      font-size: 2rem;
+      text-align: center;
+    }
+
     color: $coffee;
     font-size: 3.375rem;
     font-weight: 700;
@@ -42,6 +67,12 @@
   }
 
   .section__feedback__subtitle {
+    @media (max-width: $lg) {
+      font-size: 1rem;
+      line-height: 1.2rem;
+      text-align: center;
+    }
+
     color: $lightGray;
     font-size: 1.25rem;
     line-height: 2.125rem;
@@ -64,6 +95,12 @@
       width: 100%;
   
       .comment__arrow__l {
+        @media (max-width: $lg) {
+          width: 2rem;
+          height: auto;
+          left: -1rem;
+        }
+
         position: absolute;
         left: -3.5rem;
         z-index: 2;
@@ -71,6 +108,12 @@
       }
 
       .comment__arrow__r {
+        @media (max-width: $lg) {
+          width: 2rem;
+          height: auto;
+          right: -1rem;
+        }
+
         position: absolute;
         right: -3.5rem;
         z-index: 2;
@@ -78,16 +121,28 @@
       }
   
       .feedback__comment__text {
+        @media (max-width: $md) {
+          font-size: .8rem;
+          line-height: 1.2rem;
+          padding-inline: 1rem;
+        }
+        
         color: $lightGray;
         text-align: center;
         font-size: 1.25rem;
         font-weight: 600;
         line-height: 2.25rem;
         padding-inline: 6.25rem;
-        max-width: 90ch;
+        max-width: 67rem;
       }
   
       .feedback__comment__text::before {
+        @media (max-width: $md) {
+          font-size: 10.75rem;
+          top: 4rem;
+          left: 1rem;
+        }
+
         content: "“";
         position: absolute;
         top: 3.37rem;
